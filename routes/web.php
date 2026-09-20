@@ -12,4 +12,4 @@ Route::get('/', function () {
 
    
 
-Route::get('/test', [TestController::class ,'TestActions']);
+Route::get('/posts', [TestController::class ,'index']);
